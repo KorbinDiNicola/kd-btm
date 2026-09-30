@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
+<?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
+<events>
+ <track type="1" name="early">
+  <event>
+    <title>Boston Tea Party</title>
+    <date type="start">
+      <year>1773</year>
+      <era>AD</era>
+    </date>
+    <date type="end">
+      <year>1773</year>
+      <era>AD</era>
+    </date>
+    <description>In protest American colonists dumped british tea into the Boston Harbor.</description>
+    <lat>42.3333</lat>
+    <lon>-70.9667</lon>
+  </event>
+
+  <event>
+    <title>Declaration of Independence was signed</title>
+    <date type="start">
+      <year>1776</year>
+      <month>07</month>
+      <era>AD</era>
+    </date>
+    <date type="end">
+    <year>1776</year>
+    <month>07</month>
+    <era>AD</era>
+    </date>
+    <description>The American Colonies signed the Declaration of Independence to be free of British rule.</description>
+    <lat>39.94889</lat>
+    <lon>-75.15002</lon>
+
+  </event>
+  </track>
+ 
+ <track type="2" name="mid">
+  <event>
+    <title>Beginning of World War Two</title>
+    <date type="start">
+      <year>1939</year>
+      <month>09</month>
+      <day>1</day>
+      <era>AD</era>
+    </date>
+<!--    <date type="end">
+    </date>-->
+    <description>Nazi Germany invaded Poland marking the beginning of the second world war.</description>
+    <lat>51.22097</lat>
+    <lon>18.56964</lon>
+  </event>
+ 
+  <event>
+    <title>Bombing of Pearl Harbor</title>
+    <date type="start">
+      <year>1941</year>
+      <month>12</month>
+      <day>7</day>
+      <era>AD</era>
+    </date>
+  <!--  <date type="end">
+    </date>-->
+    <description>Japan bombed the US Navy Base Pear Harbor, causing the US to officially join World War Two.</description>
+    <lat>21.351183</lat>
+    <lon>-157.980240</lon>
+  </event>
+ 
+  <event>
+    <title>Bombing of Nagasako</title>
+    <date type="start">
+      <year>19045</year>
+      <month>08</month>
+      <day>09</day>
+      <era>AD</era>
+    </date>
+<!--    <date type="end">
+    </date>-->
+    <description>US dropped a second atomic bomb on Japan in the city of Nagasaki to end World War Two.</description>
+    <lat>32.764233</lat>
+    <lon>129.872696</lon>
+  </event>
+ </track>
+
+<track type="3" name="late">
+  <event>
+    <title>Attacks on September 11th</title>
+    <date type="start">
+      <year>2001</year>
+      <month>09</month>
+      <day>11</day>
+      <era>AD</era>
+    </date>
+    <date type="end">
+      <year>2001</year>
+      <era>AD</era>
+    </date>
+    <description>Four terror attacks were commited in the US.</description>
+    <lat>40.730610</lat>
+    <lon>-73.935242</lon>
+  </event>
+ </track>
+</events>
