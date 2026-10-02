@@ -1,105 +1,102 @@
 <?xml version="1.0" encoding="UTF-8"?>
+
 <!--This is an example xml filled with random events, feel free to copy and paste your own events over these ones from the template!-->
+<?xml-model href="events.rnc" type="application/relax-ng-compact-syntax"?>
 <events>
  <track type="1" name="early">
   <event>
-    <title>Julius Caesar invades Britain</title>
+    <title>Boston Tea Party</title>
     <date type="start">
-      <year>80</year>
-      <era>BC</era>
+      <year>1773</year>
+      <era>AD</era>
     </date>
     <date type="end">
-      <year>54</year>
-      <era>BC</era>
+      <year>1773</year>
+      <era>AD</era>
     </date>
-    <description>Julius Caesar led the first Roman expedition to Britain, landing on the Kent coast.</description>
-    <lat>51.1789</lat>
-    <lon>1.1713</lon>
+    <description>In protest American colonists dumped british tea into the Boston Harbor.</description>
+    <lat>42.3333</lat>
+    <lon>-70.9667</lon>
   </event>
 
   <event>
-    <title>Battle of Actium</title>
+    <title>Declaration of Independence was signed</title>
     <date type="start">
-      <year>31</year>
-      <month>09</month>
-      <era>BC</era>
+      <year>1776</year>
+      <month>07</month>
+      <era>AD</era>
     </date>
     <date type="end">
-    <year>10</year>
+    <year>1776</year>
     <month>07</month>
-    <era>BC</era>
+    <era>AD</era>
     </date>
-    <description>Octavian defeated the combined forces of Mark Antony and Cleopatra, becoming Rome's first emperor.</description>
-    <lat>38.9419</lat>
-    <lon>20.7400</lon>
+    <description>The American Colonies signed the Declaration of Independence to be free of British rule.</description>
+    <lat>39.94889</lat>
+    <lon>-75.15002</lon>
+
   </event>
   </track>
  
  <track type="2" name="mid">
   <event>
-    <title>Storming of the Bastille</title>
+    <title>Beginning of World War Two</title>
     <date type="start">
-      <year>1789</year>
-      <month>07</month>
-      <day>14</day>
+      <year>1939</year>
+      <month>09</month>
+      <day>1</day>
       <era>AD</era>
     </date>
-    <date type="end">
-    </date>
-    <description>Parisian crowds stormed the Bastille fortress, marking the start of the French Revolution.</description>
-    <lat>48.8533</lat>
-    <lon>2.3692</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Prise_de_la_Bastille.jpg/640px-Prise_de_la_Bastille.jpg</media>
+<!--    <date type="end">
+    </date>-->
+    <description>Nazi Germany invaded Poland marking the beginning of the second world war.</description>
+    <lat>51.22097</lat>
+    <lon>18.56964</lon>
   </event>
  
   <event>
-    <title>Declaration of the Rights of Man</title>
+    <title>Bombing of Pearl Harbor</title>
     <date type="start">
-      <year>1789</year>
+      <year>1941</year>
+      <month>12</month>
+      <day>7</day>
+      <era>AD</era>
+    </date>
+  <!--  <date type="end">
+    </date>-->
+    <description>Japan bombed the US Navy Base Pear Harbor, causing the US to officially join World War Two.</description>
+    <lat>21.351183</lat>
+    <lon>-157.980240</lon>
+  </event>
+ 
+  <event>
+    <title>Bombing of Nagasako</title>
+    <date type="start">
+      <year>1945</year>
       <month>08</month>
-      <day>26</day>
+      <day>09</day>
       <era>AD</era>
     </date>
-    <date type="end">
-    </date>
-    <description>The National Constituent Assembly adopted this foundational document of human rights.</description>
-    <lat>48.8566</lat>
-    <lon>2.3522</lon>
-  </event>
- 
-  <event>
-    <title>Execution of Louis XVI</title>
-    <date type="start">
-      <year>1793</year>
-      <month>01</month>
-      <day>21</day>
-      <era>AD</era>
-    </date>
-    <date type="end">
-    </date>
-    <description>King Louis XVI was guillotined at the Place de la Révolution in Paris.</description>
-    <lat>48.8656</lat>
-    <lon>2.3212</lon>
+<!--    <date type="end">
+    </date>-->
+    <description>US dropped a second atomic bomb on Japan in the city of Nagasaki to end World War Two.</description>
+    <lat>32.764233</lat>
+    <lon>129.872696</lon>
   </event>
  </track>
 
 <track type="3" name="late">
   <event>
-    <title>Napoleon crowned Emperor</title>
+    <title>Attacks on September 11th</title>
     <date type="start">
-      <year>1804</year>
-      <month>12</month>
-      <day>02</day>
+      <year>2001</year>
+      <month>09</month>
+      <day>11</day>
       <era>AD</era>
     </date>
-    <date type="end">
-      <year>2000</year>
-      <era>AD</era>
-    </date>
-    <description>Napoleon Bonaparte crowned himself Emperor of the French at Notre-Dame de Paris.</description>
-    <lat>48.8530</lat>
-    <lon>2.3499</lon>
-    <media>https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg/480px-David_-_Napoleon_at_the_Saint-Bernard_Pass%2C_20_May_1800.jpg</media>
+    <description>Four terror attacks were commited in the US.</description>
+    <lat>40.730610</lat>
+    <lon>-73.935242</lon>
   </event>
  </track>
 </events>
