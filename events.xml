@@ -72,7 +72,7 @@
   <event>
     <title>Bombing of Nagasako</title>
     <date type="start">
-      <year>19045</year>
+      <year>1945</year>
       <month>08</month>
       <day>09</day>
       <era>AD</era>
@@ -92,10 +92,6 @@
       <year>2001</year>
       <month>09</month>
       <day>11</day>
-      <era>AD</era>
-    </date>
-    <date type="end">
-      <year>2001</year>
       <era>AD</era>
     </date>
     <description>Four terror attacks were commited in the US.</description>
